@@ -1,0 +1,20 @@
+{
+  "name": "kokoaTalk",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "HoJin9622",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.9.8",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
